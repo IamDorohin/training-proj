@@ -1,0 +1,30 @@
+.test {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  &-title {
+  }
+  &_list {
+  }
+  &-item {
+    border: 3px solid fuchsia;
+    &:nth-child(1n) {
+      color: tomato;
+    }
+    &:nth-child(2n) {
+      color: aqua;
+    }
+    &:nth-child(3n) {
+      color: teal;
+    }
+    &:nth-child(4n) {
+      color: brown;
+    }
+    &:nth-child(5n) {
+      color: khaki;
+    }
+    &:nth-child(6n) {
+      color: greenyellow;
+    }
+  }
+}
