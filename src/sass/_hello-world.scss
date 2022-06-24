@@ -1,0 +1,10 @@
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    &__title {
+        margin:0;
+        font-size:36px
+        color:firebrick;
+    }
+}
